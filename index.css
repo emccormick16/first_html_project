@@ -20,6 +20,11 @@ body {
   margin: 10px;
 }
 
+#numVotes {
+  color: white;
+  position: relative;
+}
+
 #pagecontent {
   display: flex;
   gap: 10px;
@@ -33,10 +38,8 @@ body {
 
 #judgephoto {
   align-items: center;
-  max-height: 400px;
-  max-width: 400px;
+  height: 400px;
   width: auto;
-  height: auto;
 }
 
 #votebutton:hover {
