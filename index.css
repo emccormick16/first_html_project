@@ -49,3 +49,19 @@ body {
   background-color: red;
   transition: 1s;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    min-width: 400px;
+  }
+  #pagecontent {
+    flex-direction: column;
+    min-width: 400px;
+  }
+  #judgephoto {
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    min-width: 100px;
+  }
+}
